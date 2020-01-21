@@ -1,0 +1,22 @@
+{
+  "name": "simple-docker-node-app",
+  "version": "0.0.1",
+  "description": "Simple Docker Node app to test ECR/ECS",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jamesfiltness/simple-docker-node-app.git"
+  },
+  "author": "james filtness",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jamesfiltness/simple-docker-node-app/issues"
+  },
+  "homepage": "https://github.com/jamesfiltness/simple-docker-node-app#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
