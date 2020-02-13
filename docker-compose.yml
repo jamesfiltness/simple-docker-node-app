@@ -1,0 +1,11 @@
+version: "3.7"
+
+services:
+  server:
+    build: .
+    ports:
+      - 46190:80 
+    volumes:
+      - ./package.json:/usr/src/app/package.json
+      - ./package-lock.json:/usr/src/app/package-lock.json
+      - ./server.js:/usr/src/app/server.js
